@@ -1,0 +1,5 @@
+mongoose slug generator
+npm install method-override
+
+database:
+https://my.vertabelo.com/model/95oZPgPxxv2i4dzoEFlwlt7FZuk9IgUS

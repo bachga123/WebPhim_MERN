@@ -1,0 +1,283 @@
+<div class="mt-4 ml-4 mr-4">
+    <div class="row justify-content-md">
+        <div class="left-content">
+            <div class="film-infor">
+                <div class="poster">
+                    <a href="" title="">
+                        <img src="https://phimmoi88.net/public/media/thumb/film_bo/boruto-naruto-the-he-tiep-theo-260x340.jpg"
+                            alt="Boruto: Naruto Thế Hệ Tiếp Theo">
+                    </a>
+                    <ul class="buttons">
+                        <li>
+                            <a class="btn-see btn btn-danger"
+                                href="https://phimmoi88.net/xem-phim/boruto-naruto-the-he-tiep-theo-p1">
+                                <i class="fa fa-play"></i>
+                                XEM PHIM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <h2 class="name">Name here</h2>
+                <h3 class="real-name">Realname Here</h3>
+                <ul class="meta-data">
+                    <li>
+                        <label>Time:</label>
+                        <strong> time</strong>
+                    </li>
+                    <div class="info-y">
+                        <li></li>
+                        <li>
+                            <label>Director:</label>
+                            Ten dao dien
+                        </li>
+                        <li>
+                            <label>Caster:</label>
+                            <span>Ten dien vien</span>
+                            ","
+                            <span>Ten dien vien</span>
+                        </li>
+                        <li>
+                            <label>The loai:</label>
+                            <a href="Link the loai" title="Ten the loai"> Ten the loai</a>
+                        </li>
+                        <li>asad</li>
+                        <li>asad</li>
+                        <li>asad</li>
+                        <li>asad</li>
+                        <li>
+                            <label>Luot xem:</label>
+                            <span>View</span>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="mt-4"></div>
+            <div class="block-film">
+                <h2 class="caption">Noi dung phim</h2>
+                <div class="film-content">
+                    <p>descriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+                </div>
+            </div>
+            <div class="box-film-related">
+                <h3 class="caption">Phim lien quan</h3>
+                <ul class="list-film">
+                    <div class="row">
+                        <!-- Each Movie-->
+                        {{#each movies}}
+                        <!-- Movie card-->
+                        <div class="col">
+                            <div class="movie-card">
+                                <div class="movie-header background-film-card"
+                                    style="background-image:url(http://cdn.collider.com/wp-content/uploads/2017/03/the-dark-tower-poster.jpg);">
+                                    <div class=" header-icon-container">
+                                        <a href="/movies/{{this.slug}}">
+                                            <span class="material-icons header-icon">play_arrow</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--movie-header-->
+                                <div class="movie-content">
+                                    <div class="movie-content-header">
+                                        <a href="/movies/{{this.slug}}">
+                                            <h3 class="movie-title">{{this.title}}</h3>
+                                            <h5 class="movie-title-sub">aaaaaaaaaaaaaa</h5>
+                                        </a>
+                                        <div class="imax-logo"></div>
+                                    </div>
+                                    <div class="movie-info">
+                                        <!--TIME-->
+                                        <div class="info-section">
+                                            <label>Time</label>
+                                            <span>{{this.duration_min}}</span>
+                                        </div>
+                                        <!--Watched-->
+                                        <div class="info-section">
+                                            <label>Watched</label>
+                                            <span>06</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--movie-content-->
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <!--movie-card-->
+                </ul>
+            </div>
+        </div>
+        <div class="space-content"></div>
+        <div class="right-content">
+            <div class="mt-4">
+                <div class="caption">
+                    <span class="uppercase">Bảng xếp hạng</span>
+                </div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dayRank" role="tab"
+                            aria-controls="dayRank" aria-selected="true">Ngày</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#weekRank" role="tab"
+                            aria-controls="weekRank" aria-selected="false">Tuần</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#monthRank" role="tab"
+                            aria-controls="monthRank" aria-selected="false">Tháng</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="dayRank" role="tabpanel" aria-labelledby="dayRank-tab">
+                        <div class="list-film">
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="weekRank" role="tabpanel" aria-labelledby="weekRank-tab">
+                        <div class="list-film">
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="monthRank" role="tabpanel" aria-labelledby="monthRank-tab">
+                        <div class="list-film">
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                            <ul class="film-item-ver">
+                                <a href="#" title="Title">
+                                    <img class="avatar"
+                                        src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        data-src="https://phimmoi88.net/public/media/thumb/film_bo/noi-anh-mat-anh-dung-lai-64x64.jpg"
+                                        alt="Nơi Ánh Mắt Anh Dừng Lại">
+                                </a>
+                                <div class="title">
+                                    <h6 class="name">Nơi Ánh Mắt Anh Dừng Lại</h6>
+                                    <p class="real-name">Where Your Eyes Linger</p>
+                                </div>
+                                <p class="view" style="color: #999;"> <i><i class="fa fa-eye" aria-hidden="true"></i>
+                                        213412
+                                        lượt xem</i> </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
