@@ -1,0 +1,75 @@
+@import 'variables';
+
+    .film-infor .poster{
+        margin: 5px 100px 5px 5px;
+        float:left;
+        position: relative;
+
+    }
+    .film-infor h2.real-name{
+        font-size: 18px;
+        color: rgb(238,238,238);
+        font-family: "Open Sans","segoe ui", Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .film-infor .meta-data{
+        font-size: 15px;
+        line-height: 26px;
+        color: rgb(170,170,170);
+    }
+    .poster img { 
+        margin: 0px; 
+        box-shadow: rgba(0, 0, 0, 0.8) 1px 2px 4px; 
+        border-radius: 3px; 
+        width: 100%;
+        height: auto;
+    }
+
+    .h2 h2{
+        font-size:30px
+    }
+    .buttons .btn {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .block-film .film-content {
+        padding: 3px;
+        
+    }
+    .film-content {
+        line-height: 1.5em;
+    }
+    .film-content, .entry-meta li, .entry-meta li a {
+        color: #bbb;
+    }
+    .film-content {
+        font-size: 14px;
+        overflow: hidden;
+    }
+
+
+
+    @media (min-width: 640px){
+        .film-infor{
+            color: #ccc,
+        }
+    }
+    @media(min-width:1000px){
+        .film-infor{
+            min-height: 350px;
+        }
+        .buttons .btn {
+            font-size: 20px !important;
+        }
+
+    }
